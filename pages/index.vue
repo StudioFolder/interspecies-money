@@ -1,21 +1,25 @@
 <template>
   <div class="container">
-    <h1 class="title">Interspecies Money</h1>
+    <img src="../public/img/interspecies-money-logo.png" alt="Interspecies Money" class="logo" />
   </div>
 </template>
 
 <style scoped>
-.container {
-  background-color: #000f1a;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  color: #fff;
+  html, body {
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    background-color: #010609;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: #fff;
+    margin: 0;
+  }
+  .logo {
+  max-width: 25%; /* Ensure the logo doesn't exceed its natural size */
+  height: auto;    /* Maintain the logo's aspect ratio */
 }
-
-.title {
-  font-size: 2em;
-  text-align: center;
-}
-</style>
+  </style>

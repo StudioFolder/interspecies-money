@@ -15,5 +15,6 @@
 <style>
 .nuxt-logo {
   height: 180px;
+  selector-max-universal: 0;
 }
 </style>
