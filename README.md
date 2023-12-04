@@ -1,2 +1,2 @@
 # interspecies-money
-Interpsecies Money website
+Interspecies Money website
