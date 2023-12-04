@@ -35,7 +35,11 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [],
+  modules: ['nuxt-gtag'],
+  
+  gtag: {
+    id: ' G-KGWLGKHFME'
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
