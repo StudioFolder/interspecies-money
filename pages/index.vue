@@ -38,9 +38,12 @@
     color: #fff;
     text-align: center;
     font-family: sans-serif;
-    padding: 10px;
+    font-size: small;
     position: fixed;
     bottom: 10px;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   </style>
