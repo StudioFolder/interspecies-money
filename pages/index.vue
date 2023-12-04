@@ -1,7 +1,13 @@
 <template>
-  <div class="container">
-    <img src="../public/img/interspecies-money-logo.png" alt="Interspecies Money" class="logo" />
-  </div>
+  <div>
+    <div class="container">
+     <img src="../public/img/interspecies-money-logo.png" alt="Interspecies Money" class="logo" />
+   </div>
+
+  <footer class="footer">
+      <p>Coming Soon</p>
+  </footer>
+</div>
 </template>
 
 <style>
@@ -20,9 +26,21 @@
     color: #fff;
     overflow: hidden;
   }
+
   .logo {
   max-width: 50%; 
   max-height: 50%;  
   object-fit: contain;
-}
+  }
+
+  .footer {
+    background-color: #010609;
+    color: #fff;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 10px;
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+  }
   </style>
