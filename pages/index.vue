@@ -6,7 +6,7 @@
     <img src="../public/img/interspecies-money-logo.png" alt="Interspecies Money" class="logo" />
 
     <footer class="footer">
-      <p>Coming Soon</p>
+      <p>COMING SOON</p>
     </footer>
  </div>
 </template>
@@ -48,7 +48,7 @@
   }
 
   .footer {
-    color: #fff;
+    color: rgba(255, 255, 255, 0.7);
     text-align: center;
     font-family: sans-serif;
     font-size: small;
