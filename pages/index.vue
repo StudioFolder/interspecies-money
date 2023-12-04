@@ -4,19 +4,21 @@
   </div>
 </template>
 
-<style scoped>
+<style>
   html, body {
     margin: 0;
     padding: 0;
+    overflow: hidden;
   }
   .container {
     background-color: #010609;
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    height: 100vh;
+    width: 100vw;
     color: #fff;
-    margin: 0;
+    overflow: hidden;
   }
   .logo {
   max-width: 50%; 
