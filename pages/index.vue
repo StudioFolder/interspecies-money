@@ -1,23 +1,23 @@
 <template>
-  <div>
-    <div class="container">
-     <img src="../public/img/interspecies-money-logo.png" alt="Interspecies Money" class="logo" />
-   </div>
+  <div class="container">
+    <div class="background-image">
+    </div>
 
-  <footer class="footer">
+    <img src="../public/img/interspecies-money-logo.png" alt="Interspecies Money" class="logo" />
+
+    <footer class="footer">
       <p>Coming Soon</p>
-  </footer>
-</div>
+    </footer>
+ </div>
 </template>
 
 <style>
   html, body {
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow-y: hidden;
   }
   .container {
-    background-color: #010609;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -27,14 +27,27 @@
     overflow: hidden;
   }
 
+  .background-image {
+    background: url('../public/img/interspecies-money-background.jpg') center center no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1; /* Ensure the background is behind other content */
+    width: 100%;
+    height: 100%;
+  }
+
   .logo {
-  max-width: 50%; 
-  max-height: 50%;  
-  object-fit: contain;
+    max-width: 50%; 
+    max-height: 50%;  
+    object-fit: contain;
+    mix-blend-mode: difference;
   }
 
   .footer {
-    background-color: #010609;
     color: #fff;
     text-align: center;
     font-family: sans-serif;
