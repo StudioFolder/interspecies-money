@@ -6,10 +6,12 @@
 
 <style scoped>
 .container {
+  background-color: #000f1a;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
+  color: #fff;
 }
 
 .title {
