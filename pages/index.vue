@@ -19,7 +19,8 @@
     margin: 0;
   }
   .logo {
-  max-width: 25%; /* Ensure the logo doesn't exceed its natural size */
-  height: auto;    /* Maintain the logo's aspect ratio */
+  max-width: 50%; 
+  max-height: 50%;  
+  object-fit: contain;
 }
   </style>
