@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'interspecies-money-test',
+    title: 'Interspecies Money',
     htmlAttrs: {
       lang: 'en',
     },
