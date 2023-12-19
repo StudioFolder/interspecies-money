@@ -1,18 +1,6 @@
-# Nuxt - Decap/NetlifyCMS - Tailwind
+# Interspecies Money
 
-This template demonstrates the creation of a static site using:
-
-- Nuxt 3
-- Tailwind CSS
-- Decap CMS (formerly Netlify)
-- Nuxt Content (for rendering mdx from decap)
+Interspecies Money seeks to give wild animals, trees, and other species the ability to hold and spend money in a trusted and divisible way in order to improve their life outcomes.
 
 
-Check out the docs:
-- [Nuxt](https://nuxt.com/docs/getting-started/deployment)
-- [Decap](https://decapcms.org/docs/configuration-options)
-- [Tailwind Nuxt Module](https://tailwindcss.nuxtjs.org/)
-- [Nuxt Content Module](https://content.nuxtjs.org/)
-
-
-See the demo here -> [Demo](https://nuxt-decap-tailwind-demo.netlify.app/)
+Go to the website  -> [Interspecies Money](https://interspecies.money/)
